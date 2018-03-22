@@ -33,8 +33,8 @@ spring:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:postgresql://localhost:5432/ProjetJHipster1
-        username: ProjetJHipster1
-        password:
+        username: postgres
+        password: example
     jpa:
         database-platform: io.github.jhipster.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
